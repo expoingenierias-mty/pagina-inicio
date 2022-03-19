@@ -1,0 +1,38 @@
+/* Add here all your css styles (customizations) */
+
+/*Transparency of main image*/
+.fullscreen-static-image:after {
+	background: rgba(118,118,135,.60);
+}
+
+/* Transparency of header*/
+.one-page-header {
+  background: rgba(255, 255, 255, 1.0);
+}
+
+/*Color of header*/
+.one-page-header.architecture-nav .navbar-nav > li > a {
+    color: #2d2d37;
+}
+
+/* headings color */
+.g-heading-v7 .h2:after {
+	background: #0eae9b;
+}
+
+/* Menu text color */
+.one-page-header .navbar-nav > li > a:hover,
+.one-page-header .navbar-nav > li > a:focus,
+.one-page-header .navbar-nav > li.active > a:hover,
+.one-page-header .navbar-nav > li.active > a:focus,
+.one-page-header .navbar-nav > li.active > a {
+	color: #0eae9b !important;
+}
+
+.tag-box-v2{
+	border-left: solid 4px #0EAE9B;
+}
+
+.tag-box{
+	margin-bottom: 10px;
+}
