@@ -567,9 +567,28 @@ h3.heading-xs {
 
 /*Button Styles
 ------------------------------------*/
-.btn {
-	box-shadow: none;
-	border-radius: 0;
+.btn-light {
+	border: 2px solid;
+	border-color: #2d2d37;
+	color: black;
+	cursor: pointer;
+	background-color: white;
+}
+.btn-light:hover{
+	border-color: #2d2d37;
+	background-color: #2d2d37;
+	color: white;
+}
+.btn-dark {
+	border: 2px solid;
+	border-color: white;
+	background-color: #2d2d37;
+	color: white;
+	cursor: pointer;
+}
+.btn-dark:hover {
+	background-color: white;
+	border-color: #2d2d37;
 }
 .btn-u {
 	border: 0;
