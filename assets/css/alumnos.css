@@ -15,7 +15,7 @@ body {
 
 #cover::before {    
       content: "";
-      background-image: url('/assets/img-temp/promo/promo2.JPG');
+      background-image: url('../img-temp/promo/promo2.JPG');
       background-size: cover;
       position: absolute;
       top: 0px;
