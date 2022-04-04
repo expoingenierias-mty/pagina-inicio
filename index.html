@@ -61,9 +61,12 @@
 
   <!-- reCaptcha -->
    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+   <!--Tab Icon-->
+   <link rel="icon" href="/assets/img/Screen Shot 2022-04-03 at 17.10.51.png">
 </head>
 
-<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
+<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery" onload="hidePresencial()">
 
 	<!--=== Header ===-->
 	<nav class="one-page-header one-page-header-style-2 navbar navbar-default navbar-fixed-top architecture-nav one-page-nav-scrolling one-page-nav__fixed" role="navigation">
@@ -96,16 +99,16 @@
 						</div>
 				</div>
 		
-				<!--
+				
 				<div class="col-md-2 no-side-padding">
 					<div class="center-block logo page-scroll">
 						<a class="logo-link navbar-brand logo-centered" href="#intro">
-							<img class="default-logo" src="assets/img/EIC_ExpoIng_Header_01.png" alt="Logo">
-							<img class="shrink-logo" src="assets/img/EIC_ExpoIng_Header_01.png" alt="Logo">
+							<img class="default-logo" src="assets/img/logoExpoTec.png" alt="Logo">
+							<img class="shrink-logo" src="assets/img/logoExpoTec.png" alt="Logo">
 						</a>
 					</div>
 				</div>
-			-->
+			
 	
 				<div class="col-md-12 no-side-padding">
 					<!--div class="center"-->
@@ -130,7 +133,7 @@
 									<a href="#awards">Programa</a>
 								</li>
 								<li class="page-scroll">
-									<a href="#registro-internos">Evaluación</a>
+									<a id="nav-evaluacion" href="">Evaluación</a>
 								</li>
 								<li class="page-scroll">
 									<a href="#contact">Contacto</a>
@@ -154,7 +157,6 @@
 				<div class="row">
 					<div class="col-sm-12 text-center-xs g-heading-v7 text-center">
 						<h1 class="h2"> 
-							<img src="assets/img/EIC_ExpoIng_Header_01.png"> <br><br>
 							<p class="block-name">
 								<b>EVENTO PRESENCIAL: </b>JUNIO 7, 2022 <br>
 								<b>EVALUACION VIRTUAL: </b>JUNIO 7 A JUNIO 15, 2022 <br>
@@ -206,7 +208,7 @@
 						<div class="row">
 								<div class="tag-box tag-box-v2 margin-bottom-20">
 									<h2>22 de abril a las 23:59 hrs.</h2>
-									<p>Cierre de Convocatoria: Los equipos deben haber registrado a todos los alumnos, al profesor tutor y completado el abstract</p>
+									<p>Cierre de Convocatoria: Los equipos deben haber registrado a todos los alumnos, a todos los profesores tutores y completado el abstract.</p>
 								</div>
 						</div>
 						<div class="row">
@@ -216,22 +218,40 @@
 								</div>
 						</div>
 						<div class="row">
+							<div class="tag-box tag-box-v2 margin-bottom-20">
+								<h2>30 de mayo</h2>
+								<p>Aviso de proyectos que participaran en el evento.</p>
+							</div>
+						</div>
+						<div class="row">
 								<div class="tag-box tag-box-v2 margin-bottom-20">
 									<h2>3 de junio</h2>
-									<p> Captura de información en Muestra Virtual. Los equipos tendrán hasta esta fecha para subir a la plataforma su video y reporte, para ser acreedores a participar en la Muestra Virtual. <a href=" https://apps.powerapps.com/play/providers/Microsoft.PowerApps/apps/0eb75120-19b2-4f2e-99a1-308082634ca9?&authMode=Default" target="_blank"> Link para alumnos</a></p>
+									<p>Límite para captura de información para la Muestra Virtual. Los equipos tendrán hasta esta fecha para subir a la plataforma su video y reporte, para ser acreedores a participar en la Muestra Virtual. <a href=" https://apps.powerapps.com/play/providers/Microsoft.PowerApps/apps/0eb75120-19b2-4f2e-99a1-308082634ca9?&authMode=Default" target="_blank"> Link para alumnos</a></p>
 								</div>
 						</div>
 						<div class="row">
 								<div class="tag-box tag-box-v2 margin-bottom-20">
 									<h2>7 de junio</h2>
-									<p>Muestra Presencial de ExpoIngenierías. </p>
+									<p>Muestra y Evaluación Presencial de ExpoIngenierías. </p>
 								</div>
 						</div>
 						<div class="row">
 								<div class="tag-box tag-box-v2 margin-bottom-20">
 									<h2>7 de junio al 15 de junio</h2>
-									<p>Muestra Virtual de ExpoIngenierías. Da click aquí para ingresar a la Muestra Virtual <a href="https://apps.powerapps.com/play/8b0d5e59-fa0c-4e1a-9096-b914356195e8?tenantId=c65a3ea6-0f7c-400b-8934-5a6dc1705645"> Acceso a la exhibición</a></p>
+									<p>Evaluación de la Muestra Virtual de ExpoIngenierías.</p>
 								</div>
+						</div>
+						<div class="row">
+							<div class="tag-box tag-box-v2 margin-bottom-20">
+								<h2>7 de junio al 15 de agosto</h2>
+								<p>Muestra Virtual de ExpoIngenierías. Da click aquí para ingresar a la Muestra Virtual <a href="https://apps.powerapps.com/play/8b0d5e59-fa0c-4e1a-9096-b914356195e8?tenantId=c65a3ea6-0f7c-400b-8934-5a6dc1705645"> Acceso a la exhibición</a></p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="tag-box tag-box-v2 margin-bottom-20">
+								<h2>22 de junio </h2>
+								<p>Premiación de ganadores.</p>
+							</div>
 						</div>
 					</div>
 					
@@ -298,7 +318,7 @@
 					<div class="row g-mb-50 g-heading-v7 text-center">
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 							<h2 class="h2 g-color-white g-mb-30">Acceso a Alumnos</h2>
-							<a href="https://apps.powerapps.com/play/0eb75120-19b2-4f2e-99a1-308082634ca9?tenantId=c65a3ea6-0f7c-400b-8934-5a6dc1705645&source=portal&screenColor=rgba(0%2C%20176%2C%20240%2C%201)" target="_blank" >
+							<a href="alumnos.html" target="_blank">
 							<!--<a href="https://sites.google.com/view/conexiontecexpo" target="_blank"> -->
 							<!--a href="./prototipo_muestra_virtual.htm" target="_blank"-->
 								<button class="btn btn-dark">Acceder con cuenta oficial Tec</button>
@@ -396,7 +416,7 @@
         
 							<br>
 							<p class=" g-color-white"> Agenda del evento ExpoIngenierías PRESENCIAL  <br>
-								Exhibición: Junio 7, 2022 de las 15:00 hrs a las 18:30 hrs<br>
+								Exhibición y Concurso: Junio 7, 2022 de las 15:00 hrs a las 18:30 hrs<br>
 								Premiación: Junio 22, 2022 a las 18:00 hrs</p>
                                                        
 						</div>
@@ -416,6 +436,15 @@
 							Cierre de exhibición: Junio 15, 2022 a las 23:59 hrs <br>
 							Premiación: Junio 22, 2022 a las 18:00 hrs</p>
 													
+						</div>
+						<br><br><br>
+						<div class="row">
+							<!-- imagen del Centro de Congresos -- assets/img-temp/cestudiantil.jpg -->
+							<div class="col-md-12 award-div text-center">
+								<img src="" alt="">
+								<em class="g-color-white"> Premiación Evento Presencial y Virtual </em>
+								<h3 class="g-color-white"> 22 de junio, 2022</h3>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -474,7 +503,7 @@
 
 	
 	<!-- Evaluaciones Presenciales Internas  -->
-	<section id="registro-internos">
+	<section id= "registro-internos" class="hide-presencial">
 		<div class="gallery-section">
 			<div class="container-fluid bg-color-com content-md no-side-padding">
 				<div class="container">
@@ -507,7 +536,7 @@
 	<!--End of Registro-->
 
 	<!-- Evaluaciones Presenciales Externos -->
-	<section id="registro-externos">
+	<section id="registro-externos" class="hide-presencial">
 		<div class="gallery-section">
 			<div class="container-fluid content-md no-side-padding">
 				<div class="container">
@@ -548,9 +577,13 @@
 						<h2 class="h2 g-color-white g-mb-30">Evaluación Muestra Virtual</h2>
 						<br><br>
 						<div class="col-md-12">
-							<a href="https://apps.powerapps.com/play/02d9f825-29a1-4591-9b16-8cc812bb5db2?tenantId=c65a3ea6-0f7c-400b-8934-5a6dc1705645" target="_blank">
+							<a href="https://apps.powerapps.com/play/407e7143-8a9f-4640-85cb-0dbc6f2e6324" target="_blank">
 							<!--a href="./prototipo_muestra_virtual.htm" target="_blank"-->
-								<button class="btn btn-dark">Acceder</button>
+								<button class="btn btn-dark">Selecciona Proyecto para Evaluar</button>
+							</a>
+							<a href="https://apps.powerapps.com/play/ee289564-c614-4dde-b716-15922518ab74" target="_blank">
+								<!--a href="./prototipo_muestra_virtual.htm" target="_blank"-->
+									<button class="btn btn-dark">Evaluar Proyectos Seleccionados</button>
 							</a>
 						</div>
 					</div>
@@ -658,6 +691,19 @@
 			OwlCarousel.initOwlCarousel();
 			ContactForm.initContactForm();
 		});
+		function hidePresencial(){
+			var d = new Date();
+			var elements = document.querySelectorAll('.hide-presencial');
+			//if (d.getMonth == 6 && d.getDay == 7){
+			if(d.getMonth() + 1 === 4 && d.getDate() === 3){
+				$('.hide-presencial').css('display','block');
+				$("#nav-evaluacion").attr("href", "#registro-internos");				
+			}else{
+				$('.hide-presencial').css('display','none');
+				$("#nav-evaluacion").attr("href", "#registro-virtual");
+			}
+
+		}
 	</script>
 	<!--[if lt IE 10]>
 	  <script src="../assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>

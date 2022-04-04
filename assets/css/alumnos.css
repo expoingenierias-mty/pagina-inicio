@@ -1,0 +1,43 @@
+
+body {
+    background-color: #4164f0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cover {
+    position: relative; 
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cover::before {    
+      content: "";
+      background-image: url('/assets/img-temp/promo/promo2.JPG');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.55;
+}
+
+h1 {
+    position: relative;
+    color: black;  
+    font-size: 9rem;
+    line-height: 0.9;
+    text-align: center;
+    
+}
+
+h2 {
+    position: relative;
+    color: black;  
+    font-size: 2rem;
+    line-height: 0.9;
+    text-align: center;
+}
