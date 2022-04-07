@@ -1,0 +1,18 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    color: black;
+    backdrop-filter: blur(5px);
+    background-repeat: repeat;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.container-fluid {
+    background-color: rgba(255,255,255,0.6)
+}
+
+
+

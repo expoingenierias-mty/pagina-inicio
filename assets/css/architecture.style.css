@@ -374,11 +374,13 @@ p {
 .navbar.architecture-nav > .container .navbar-brand.logo-centered {
 	font-size: 20px;
 	color: #fff;
-	margin: 0 auto;
+	margin: 0 -70;
+	margin-bottom: 15;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	padding: 8px 15px;
+	padding: 8px 0;
+	width: 350px;
 }
 .navbar.architecture-nav > .container .navbar-brand.logo-left {
 	font-size: 20px;
@@ -394,7 +396,6 @@ p {
 /*For both centered and left logo on big and small screens*/
 .architecture-nav .navbar-brand img {
 	width: 100%;
-	margin: 0 auto 5px;
 }
 .navbar.architecture-nav > .container .navbar-brand.logo-left img {
 	width: 140px;
@@ -421,7 +422,7 @@ p {
     font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 20px 30px;
+   
     letter-spacing: 1px;
 }
 
