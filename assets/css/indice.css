@@ -22,3 +22,7 @@ dd {
 .container{
     margin-bottom: 10%;
 }
+
+.badge-success{
+    font-size: 0.9rem;
+}
