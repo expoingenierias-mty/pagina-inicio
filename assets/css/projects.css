@@ -1,18 +1,35 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    height: 100%;
     color: black;
     backdrop-filter: blur(5px);
     background-repeat: repeat;
 }
 
+html, body
+{
+    height: 100%;
+}
 p {
-    font-size: 1.3rem;
+    font-size: 1.2vw;
 }
 
 .container-fluid {
-    background-color: rgba(255,255,255,0.6)
+    background-color: rgba(255,255,255,0.6);
+    min-height: 100%;
 }
 
+.project-img{
+    max-height: 350px;
+    width: auto;
+    max-width: 100%;
+}
 
+@media only screen and (max-width: 600px) {
+    p {
+      font-size: 4vw;
+    }
+    .project-img{
+        margin-top: 2vh;
+    }
+  }
 
