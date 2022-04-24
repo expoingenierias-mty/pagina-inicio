@@ -121,11 +121,11 @@ var App = function() {
 	// Header
 	function handleHeader() {
 		// jQuery to collapse the navbar on scroll
-		if ($('.navbar').offset().top > 150) {
+		if ($('.navbar').offset().top >= 0) {
 			$('.navbar-fixed-top').addClass('top-nav-collapse');
 		}
 		$(window).scroll(function() {
-			if ($('.navbar').offset().top > 150) {
+			if ($('.navbar').offset().top >= 0) {
 				$('.navbar-fixed-top').addClass('top-nav-collapse');
 			} else {
 				$('.navbar-fixed-top').removeClass('top-nav-collapse');
