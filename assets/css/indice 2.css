@@ -1,0 +1,28 @@
+body {
+   font-family: 'Raleway', sans-serif;
+}
+
+#desc {
+    padding: 0 5%;
+    font-size: 1.4rem;
+}
+
+#jumbo {
+    margin-top: 8%;
+}
+
+dt {
+    font-size: 200%;
+}
+
+dd {
+    font-size: 1.7vw;
+}
+
+.container{
+    margin-bottom: 10%;
+}
+
+.badge-success{
+    font-size: 1.3vw;
+}
