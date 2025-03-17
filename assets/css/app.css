@@ -579,6 +579,11 @@ h3.heading-xs {
 	background-color: #2d2d37;
 	color: white;
 }
+.btn-light:focus{
+	background-color: white;
+	color:black;
+	box-shadow: none;
+}
 .btn-dark {
 	border: 2px solid;
 	border-color: white;
@@ -589,6 +594,10 @@ h3.heading-xs {
 .btn-dark:hover {
 	background-color: white;
 	border-color: #2d2d37;
+}
+.btn-dark:focus{
+	background-color: #2d2d37;
+	color:white;
 }
 .btn-u {
 	border: 0;

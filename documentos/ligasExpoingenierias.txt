@@ -1,0 +1,9 @@
+ - Evaluar Muestra Virtual: https://apps.powerapps.com/play/02d9f825-29a1-4591-9b16-8cc812bb5db2?tenantId=c65a3ea6-0f7c-400b-8934-5a6dc1705645 
+
+ - Evaluar Muestra Presencial Cuenta Tec 
+	- Evaluar tableta: https://apps.powerapps.com/play/5ce734fa-1f46-4e1b-990d-1d7e52e53e94
+	- Evaluar celular: https://apps.powerapps.com/play/cf8a5fdf-682e-4db9-afee-b809b3b72708
+ - Evaluar Muestra Presencial Externos
+	- Evaluar tableta: https://apps.powerapps.com/play/df76a099-636f-4373-bafa-029427351b83
+	- Evaluar celular: https://apps.powerapps.com/play/4f739b2f-3280-4202-a59d-9caedf0cf7b3
+
